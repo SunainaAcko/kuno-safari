@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import SectionHeading from '../ui/SectionHeading';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
+import SectionHeading from '../components/ui/SectionHeading';
 
 interface ServiceCardProps {
   icon: string;
